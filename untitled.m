@@ -61,7 +61,7 @@ global vid;
 % Choose default command line output for untitled
 handles.output = hObject;
 
-vid = videoinput('winvideo', 1, 'YUY2_320x240');
+vid = videoinput('winvideo', 1, 'YUY2_640x480');
 
 set(vid,'FramesPerTrigger',1);
 set(vid,'TriggerRepeat',Inf);
